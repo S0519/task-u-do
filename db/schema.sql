@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS udo_tasks;
+
+CREATE DATABASE udo_tasks;
