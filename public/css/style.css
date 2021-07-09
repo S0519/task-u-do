@@ -1,0 +1,36 @@
+.header, .internal-header {
+    background-color: #ffff38;
+    border: 1px solid #ddd;
+}
+
+.custom-button {
+    width: 100%;
+    min-height: 40px;
+    border-radius: 0;
+    color: #fff;
+}
+
+.list-button {
+    border-radius: 0px;
+    /*min-width: 30px;*/
+}
+
+.list-title {
+    display: inline-block;
+}
+
+.custom-button:hover, .custom-button:focus, .custom-button:active {
+    color: #fff;
+}
+
+.form-horizontal {
+    border: 1px solid #ddd;
+}
+
+.header-link, .list-link {
+    text-decoration: none;
+}
+
+#new-list-text {
+    cursor: pointer;
+}
