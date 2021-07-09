@@ -1,0 +1,52 @@
+<div class="col-6 offset-3">
+    {{> header }}
+    <div class="row my-3">
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <h3>Current Lists</h3>
+                </div>
+                <div class="col text-end">
+                    <button type="button" class="btn btn-info" id="new-list-button"><i class="fas fa-plus-square"></i> New List</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <ul class="list-group">
+                {{#if lists.length}}
+                {{#each lists as |list|}}
+                    {{> single-list list }}
+                {{/each}}
+                {{else}}
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">No Current Lists</div>
+                                <span id="new-list-text">Click here to add a new List</span>
+                            </div>
+                        </li>
+                {{/if}}
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="modal" tabindex="-1" id="new-list-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="new-list-title">New List</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="new-list-content">
+                <label for="new-list" class="form-label">List Name:</label>
+                <input type="text" class="form-control" id="new-list-input" placeholder="Grocery List">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="button-create">Create List</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/dashboard.js"></script>
