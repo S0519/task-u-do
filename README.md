@@ -29,6 +29,8 @@ We downloaded the packages necessaries to run the application:
 
 ## Demo
 
+![log](https://user-images.githubusercontent.com/80322588/125150868-9c1bfd00-e108-11eb-817c-551781c399d1.png)
+
 ![Screenshot (200)](https://user-images.githubusercontent.com/80322588/125150774-07b19a80-e108-11eb-9fd4-42c735cf8f9e.png)
 
 ![Screenshot (201)](https://user-images.githubusercontent.com/80322588/125150776-0b452180-e108-11eb-8316-2d7bc1b766b3.png)
