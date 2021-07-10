@@ -50,3 +50,8 @@ We downloaded the packages necessaries to run the application:
 
 
 ## URL
+
+https://s0519.github.io/task-u-do/
+
+https://github.com/S0519/task-u-do
+
