@@ -15,6 +15,8 @@ hbs.handlebars.registerHelper('ifvalue', function (conditional, options) {
 });
 
 const session = require('express-session');
+
+//Session.store saves the session on the server for the user, who is currently logged in//
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const sess = {
@@ -44,6 +46,7 @@ app.use(routes);
 
 sequelize.sync();
 
+// wait for user input, to perform the next operation//
 app.listen(PORT, () => {
 	console.log(`App listening on port ${PORT}!`);
 });
