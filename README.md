@@ -76,3 +76,11 @@ https://github.com/S0519/task-u-do
 
 
 
+https://drive.google.com/file/d/1bbDP7KNmltuqr1j9NSKIt12s8lOO5ygE/view  part 1
+
+https://drive.google.com/file/d/1fX5y0mxRE32VHzMjnGYe2dvnSM5YPclK/view  part 2
+
+https://drive.google.com/file/d/1DH7e0LK0CWavp7bce6lYU7DL5Yw2ngVl/view  part 3
+
+
+
