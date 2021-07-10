@@ -1,3 +1,27 @@
+body {
+    background-image: linear-gradient(to right, #E7D250 , #F09B1F);
+}
+
+#new-list-button {
+    background-color: #FFF;
+    border: none;
+}
+
+.header-link {
+    padding: 5px;
+    background-color: #fff;
+}
+
+.login-page .form-group, .signup-page .form-group {
+    box-shadow: 0px 3px 3px rgb(0 0 0 / 30%);
+    padding: 6px;
+    margin: 7px;
+}
+
+.header-text {
+    color: #fff;
+}
+
 .header, .internal-header {
     background-color: #ffff38;
     border: 1px solid #ddd;
